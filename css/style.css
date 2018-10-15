@@ -18,7 +18,9 @@ body{
 	color:#ABD9FF;
 }
 
-
+.nav-link{
+	font-family: 'Montserrat', sans-serif;
+}
 
 .carousel-img{
 	width:100%;
@@ -37,7 +39,7 @@ body{
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
-.text-center{
+.textshadow{
 	color: white;
 	text-shadow: white 2px 2px 4px;
 }
@@ -58,4 +60,12 @@ body{
 .bg-dark {
   background-color: #0B0A0F !important;
   box-shadow: white 0px 0px 6px;
+}
+
+
+
+@media(max-width: 700px){
+	.about-us-text{
+		flex-direction: column;
+	}
 }
