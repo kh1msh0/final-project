@@ -59,7 +59,7 @@ body{
 }
 .bg-dark {
   background-color: #0B0A0F !important;
-  box-shadow: white 0px 0px 6px;
+  /*box-shadow: white 0px 0px 6px;*/
 }
 
 
